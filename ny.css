@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Shalimar&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1517263904808-5dc91e3e7044?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+  background-position: center center;
+  font-family: Shalimar, sans-serif;
+  font-weight: inherit;
+  color: rgba(246, 10, 108, 0.918);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.the_year {
+  font-size: 220px;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.5;
+  top: 20px;
+  left: 35%;
+  color: rgb(16, 230, 34);
+}
+h1 {
+  padding-top: 15px;
+  font-size: 80px;
+}
+
+.time {
+  font-size: 67px;
+  margin: 15px;
+}
+
+.time h2 {
+  margin-bottom: 10px;
+}
+.count_down {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.load {
+  width: 100%;
+  opacity: 50%;
+}
